@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import AddForgeAccountButton from "$components/AddForgeAccountButton.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Buttons / Add Forge Account Button",

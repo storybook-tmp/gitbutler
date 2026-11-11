@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import ImageDiff from "$components/ImageDiff.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	// Sample image data URLs for demonstration
 	const sampleImageBefore =

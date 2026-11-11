@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import Badge from "$components/Badge.svelte";
 	import { iconNames } from "$lib/icons/names";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Basic / Badge",

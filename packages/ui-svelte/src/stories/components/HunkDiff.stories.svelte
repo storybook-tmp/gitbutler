@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import HunkDiff from "$components/hunkDiff/HunkDiff.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { DependencyLock } from "$lib/utils/diffParsing";
 
 	const hunkStr = {

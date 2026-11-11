@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import SimpleCommitRow, { type Props as SeriesProps } from "$components/SimpleCommitRow.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const items = [
 		{

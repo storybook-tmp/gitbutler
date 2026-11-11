@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import SeriesLabelsRow from "$components/SeriesLabelsRow.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Basic / Series Labels Row",
