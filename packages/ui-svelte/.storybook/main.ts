@@ -13,7 +13,7 @@ const config: StorybookConfig = {
 		getAbsolutePath("@storybook/addon-svelte-csf"),
 	],
 	framework: {
-		name: getAbsolutePath("@storybook/sveltekit"),
+		name: "@storybook/sveltekit",
 		options: {},
 	},
 };
