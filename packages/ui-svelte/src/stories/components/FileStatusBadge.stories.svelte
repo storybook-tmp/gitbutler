@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import FileStatusBadge from "$components/file/FileStatusBadge.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Basic / FileStatusBadge",

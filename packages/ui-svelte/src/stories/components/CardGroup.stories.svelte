@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import { CardGroup } from "$lib/components/cardGroup";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Layout / CardGroup",

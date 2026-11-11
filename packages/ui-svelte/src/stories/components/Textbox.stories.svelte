@@ -1,7 +1,7 @@
 <script module lang="ts">
 	import Icon from "$components/Icon.svelte";
 	import Textbox from "$components/Textbox.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Inputs / Textbox",

@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import Icon, { allIconNames } from "$components/Icon.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	import type { IconName } from "$components/Icon.svelte";
 
