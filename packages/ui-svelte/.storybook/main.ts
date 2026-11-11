@@ -9,7 +9,7 @@ const config: StorybookConfig = {
 	stories: ["../src/stories/**/*.mdx", "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx|svelte)"],
 	addons: [getAbsolutePath("@storybook/addon-docs"), getAbsolutePath("@storybook/addon-links"), getAbsolutePath("@storybook/addon-vitest")],
 	framework: {
-		name: getAbsolutePath("@storybook/sveltekit"),
+		name: "@storybook/sveltekit",
 		options: {},
 	},
 };
