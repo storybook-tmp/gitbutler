@@ -1,7 +1,9 @@
+import { playwright } from "@vitest/browser-playwright";
+import { defineConfig } from "vitest/config";
 import { storybookTest } from "@storybook/addon-vitest/vitest-plugin";
 import { storybookSveltekitPlugin } from "@storybook/sveltekit/vite-plugin";
 
-export default [
+export default defineConfig({ test: { projects: [
 	"vite.config.ts",
 	{
 		extends: "vite.config.ts",
@@ -10,13 +12,13 @@ export default [
 			storybookSveltekitPlugin(),
 		],
 		test: {
+			name: "storybook",
 			browser: {
 				enabled: true,
 				headless: true,
 				instances: [{ browser: "chromium" }],
-				provider: "playwright",
+				provider: playwright(),
 			},
-			setupFiles: ["./.storybook/vitest.setup.ts"],
 		},
 	},
-];
+] } });

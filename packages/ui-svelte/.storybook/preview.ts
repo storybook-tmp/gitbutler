@@ -5,6 +5,7 @@ import "../src/styles/main.css";
 import "./stories-styles.css";
 
 const preview: Preview = {
+	initialGlobals: { theme: "light" },
 	parameters: {
 		backgrounds: { disabled: true },
 		controls: {
@@ -22,7 +23,6 @@ const preview: Preview = {
 		theme: {
 			name: "Theme",
 			description: "Toggle between light and dark theme",
-			defaultValue: "light",
 			toolbar: {
 				icon: "contrast",
 				items: [

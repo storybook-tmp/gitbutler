@@ -38,7 +38,7 @@ catalog:
   playwright-webkit: 1.58.2
   rxjs: 7.8.2
   typescript: 5.9.3
-  vite: ^8.0.0
+  vite: 6.4.3
   vitest: ^4.0.0
 
 catalogs:
@@ -55,9 +55,9 @@ catalogs:
   svelte:
     "@sentry/sveltekit": 10.44.0
     "@sveltejs/adapter-static": 3.0.10
-    "@sveltejs/kit": ^3.0.0
+    "@sveltejs/kit": 2.52.2
     "@sveltejs/package": 2.5.7
-    "@sveltejs/vite-plugin-svelte": ^7.0.0
+    "@sveltejs/vite-plugin-svelte": 6.2.4
     svelte: 5.54.0
     svelte-check: 4.4.5
 
