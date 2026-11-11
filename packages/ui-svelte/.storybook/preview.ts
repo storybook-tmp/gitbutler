@@ -18,11 +18,13 @@ const preview: Preview = {
 			autodocs: "tag",
 		},
 	},
+	initialGlobals: {
+		theme: "light",
+	},
 	globalTypes: {
 		theme: {
 			name: "Theme",
 			description: "Toggle between light and dark theme",
-			defaultValue: "light",
 			toolbar: {
 				icon: "contrast",
 				items: [
