@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import ProfilePictureUpload from "$components/ProfilePictureUpload.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Avatar / ProfilePictureUpload",

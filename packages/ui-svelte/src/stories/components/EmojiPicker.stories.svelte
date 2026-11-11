@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import EmojiPicker from "$components/emoji/EmojiPicker.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { EmojiInfo } from "$components/emoji/utils";
 
 	const { Story } = defineMeta({

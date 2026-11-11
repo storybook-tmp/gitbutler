@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import Button from "$components/Button.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Inputs / Button",

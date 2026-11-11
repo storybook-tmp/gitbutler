@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import TagInput from "$components/TagInput.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { Tag } from "$components/TagInput.svelte";
 
 	const { Story } = defineMeta({

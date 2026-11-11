@@ -2,7 +2,7 @@
 	import IntegrationSeriesListItem, {
 		type Props as SeriesProps,
 	} from "$components/IntegrationSeriesRow.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	// eslint-disable-next-line func-style
 	const updateBranchShouldBeDeletedMap = (branchName: string[], shouldBeDeleted: boolean) => {

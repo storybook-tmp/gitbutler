@@ -2,7 +2,7 @@
 	import Button from "$components/Button.svelte";
 	import ChipToastContainer from "$components/chipToast/ChipToastContainer.svelte";
 	import { chipToasts } from "$components/chipToast/chipToastStore";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Overlays / ChipToast",

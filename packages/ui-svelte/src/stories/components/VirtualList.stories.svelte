@@ -2,7 +2,7 @@
 	import Button from "$components/Button.svelte";
 	import VirtualList from "$lib/components/VirtualList.svelte";
 	import AsyncContent from "$lib/helpers/AsyncContent.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { Component, ComponentProps } from "svelte";
 
 	let items = $state(Array.from({ length: 10 }, (_, i) => `item-${i + 1}`));

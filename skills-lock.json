@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "component-docs": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-beta.1",
+      "sourceType": "github",
+      "skillPath": "skills/component-docs/SKILL.md",
+      "computedHash": "3cf1892b9f2811f1a342c3793c331a791eb47ded210c8687b21cc40a9f28c878",
+      "installMode": "copy"
+    },
+    "storybook-init": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-beta.1",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-init/SKILL.md",
+      "computedHash": "322e2970579c40af50ac565702451d312f0b0499ee7aa4f1826249b949f2fb5b",
+      "installMode": "copy"
+    },
+    "storybook-setup": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-beta.1",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-setup/SKILL.md",
+      "computedHash": "ad71be3129fecd373531f3dffffc51b2537274aa16d21d8508e7d8bdef7592a2",
+      "installMode": "copy"
+    },
+    "storybook-upgrade": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-beta.1",
+      "sourceType": "github",
+      "skillPath": "skills/storybook-upgrade/SKILL.md",
+      "computedHash": "9034dbc8c3feb8a9079ce30e6f0bc61eba0cc4dad48189d0b1bd74c87f85b6dd",
+      "installMode": "copy"
+    },
+    "ui-workflow": {
+      "source": "storybookjs/skills",
+      "ref": "v11.0.0-beta.1",
+      "sourceType": "github",
+      "skillPath": "skills/ui-workflow/SKILL.md",
+      "computedHash": "818d60d749911eedde62dbfaaadb1a6bd964f953110d485e113c2192f681b92b",
+      "installMode": "copy"
+    }
+  }
+}
