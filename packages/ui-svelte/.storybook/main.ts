@@ -12,7 +12,7 @@ const config: StorybookConfig = {
 		getAbsolutePath("@storybook/addon-links"),
 	],
 	framework: {
-		name: getAbsolutePath("@storybook/sveltekit"),
+		name: "@storybook/sveltekit",
 		options: {},
 	},
 };
