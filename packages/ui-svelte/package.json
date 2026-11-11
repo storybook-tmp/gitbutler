@@ -65,7 +65,9 @@
 		"svelte-check": "catalog:svelte",
 		"svgo": "^3.3.4",
 		"vite": "catalog:",
-		"vitest": "4.1.12"
+		"vitest": "4.1.12",
+		"@vitest/browser-playwright": "4.1.12",
+		"@vitest/coverage-v8": "4.1.12"
 	},
 	"peerDependencies": {
 		"@sveltejs/kit": "catalog:svelte",
