@@ -2,7 +2,7 @@
 	import RichTextEditor from "$lib/richText/RichTextEditor.svelte";
 	import Formatter from "$lib/richText/plugins/Formatter.svelte";
 	import UpDownPlugin from "$lib/richText/plugins/UpDownPlugin.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Editing / RichTextEditor",

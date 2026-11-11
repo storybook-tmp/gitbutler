@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import Textarea from "$components/Textarea.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	function handleDescriptionKeyDown(e: KeyboardEvent) {
 		if (e.key === "Escape") {

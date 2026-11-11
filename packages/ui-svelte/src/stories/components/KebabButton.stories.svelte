@@ -2,7 +2,7 @@
 	import ContextMenuItem from "$components/ContextMenuItem.svelte";
 	import ContextMenuSection from "$components/ContextMenuSection.svelte";
 	import KebabButton from "$components/KebabButton.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Controls / KebabButton",

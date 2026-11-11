@@ -2,7 +2,7 @@
 	import HunkDiffRow from "$components/hunkDiff/HunkDiffRow.svelte";
 	import LineSelection from "$components/hunkDiff/lineSelection.svelte";
 	import { SectionType, encodeDiffFileLine } from "$lib/utils/diffParsing";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { Row, DependencyLock } from "$lib/utils/diffParsing";
 
 	// Mock LineSelection for stories

@@ -2,7 +2,7 @@
 	import ContextMenuItem from "$components/ContextMenuItem.svelte";
 	import ContextMenuSection from "$components/ContextMenuSection.svelte";
 	import DropdownButton from "$components/DropdownButton.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Inputs / DropdownButton",

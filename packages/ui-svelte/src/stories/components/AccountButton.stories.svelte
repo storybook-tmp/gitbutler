@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import ProfileButton from "$components/avatar/ProfileButton.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Avatar / ProfileButton",
