@@ -15,6 +15,7 @@ export default {
 		}),
 		alias: {
 			$components: "src/lib/components",
+			$lib: "src/lib",
 		},
 	compilerOptions: {
 		css: "injected",
