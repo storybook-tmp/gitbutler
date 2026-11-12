@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import LineStats from "$components/LineStats.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Basic / LineStats",

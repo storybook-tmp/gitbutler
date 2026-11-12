@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import Button from "$components/Button.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 	import type { ComponentColorType } from "$lib/utils/colorTypes";
 
 	const { Story } = defineMeta({

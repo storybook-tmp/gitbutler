@@ -3,7 +3,7 @@
 	import Icon from "$components/Icon.svelte";
 	import Select from "$components/select/Select.svelte";
 	import SelectItem from "$components/select/SelectItem.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Inputs / Select",

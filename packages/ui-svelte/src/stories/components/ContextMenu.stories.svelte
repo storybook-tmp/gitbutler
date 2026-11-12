@@ -4,7 +4,7 @@
 	import ContextMenuItem from "$components/ContextMenuItem.svelte";
 	import ContextMenuItemSubmenu from "$components/ContextMenuItemSubmenu.svelte";
 	import ContextMenuSection from "$components/ContextMenuSection.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Overlays / ContextMenu",

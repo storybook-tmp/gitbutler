@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import InfoMessage from "$components/InfoMessage.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Components / InfoMessage",

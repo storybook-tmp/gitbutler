@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import { sticky } from "$lib/utils/sticky";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Utils / Sticky Action",

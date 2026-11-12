@@ -1,6 +1,6 @@
 <script module lang="ts">
 	import NotificationButton from "$components/NotificationButton.svelte";
-	import { defineMeta } from "@storybook/addon-svelte-csf";
+	import { defineMeta } from "@storybook/sveltekit";
 
 	const { Story } = defineMeta({
 		title: "Inputs / Notification Button",
