@@ -8,7 +8,7 @@ const require = createRequire(import.meta.url);
 const config: StorybookConfig = {
 	stories: ["../src/stories/**/*.mdx", "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx|svelte)"],
 	addons: [getAbsolutePath("@storybook/addon-docs"), getAbsolutePath("@storybook/addon-links")],
-	framework: getAbsolutePath("@storybook/sveltekit"),
+	framework: "@storybook/sveltekit",
 };
 
 export default config;
