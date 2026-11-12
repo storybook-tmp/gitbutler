@@ -46,7 +46,7 @@
 		"@sveltejs/vite-plugin-svelte": "catalog:svelte",
 		"@types/diff-match-patch": "^1.0.36",
 		"@types/postcss-pxtorem": "^6.1.0",
-		"@vitest/browser": "catalog:",
+		"@vitest/browser": "4.1.12",
 		"autoprefixer": "^10.4.27",
 		"buildkite-test-collector": "^1.9.5",
 		"cpy-cli": "^5.0.0",
@@ -66,7 +66,7 @@
 		"svelte-check": "catalog:svelte",
 		"svgo": "^3.3.4",
 		"vite": "catalog:",
-		"vitest": "catalog:"
+		"vitest": "4.1.12"
 	},
 	"peerDependencies": {
 		"@sveltejs/kit": "catalog:svelte",
